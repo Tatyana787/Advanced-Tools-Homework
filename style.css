@@ -110,6 +110,7 @@ p {
   h2,
   h3 {
     font-size: 14px;
+    margin-top: 10px;
   }
 
   p {
@@ -119,6 +120,9 @@ p {
     display: none;
   }
   .about-paragraphs {
+    margin: 10px;
+  }
+  .navigation-links {
     margin: 10px;
   }
 }
