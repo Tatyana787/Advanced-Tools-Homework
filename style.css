@@ -83,15 +83,11 @@ p {
   display: block;
 }
 
-.about-paragraphs p {
+.about-paragraphs {
   display: flex;
-  margin: 0 10px;
+  margin: 0 70px;
   font-size: 18px;
 }
-
-/* .about-paragraphs p {
-  margin: 10px;
-} */
 
 .email-link {
   display: flex;
@@ -107,4 +103,24 @@ p {
 
 .img {
   max-width: 100%;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2,
+  h3 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+  .imgApp {
+    display: none;
+  }
+  .about-paragraphs {
+    margin: 10px;
+  }
 }
